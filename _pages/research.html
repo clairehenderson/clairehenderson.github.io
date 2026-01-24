@@ -5,17 +5,30 @@ permalink: /research/
 author_profile: true
 ---
 
-.imageflex { display: flex; }
-.imageflexcontent { margin-left: 5px; margin-top: 0; }
-
-<div class="imageflex">
-  <img src=https://clairehenderson.github.io/images/IMG_7736.jpeg>
-
-  <p class="imageflexcontent">I'm interested in dialect contact between Canadian and American English and the effect of the border.
+<div class="content">
+  <img src=https://clairehenderson.github.io/images/IMG_7736.jpeg alt="Horseshoe Falls">
+  <div class="text">
+    <h2>The Border</h2>
+    <p>
+I'm interested in dialect contact between Canadian and American English and the effect of the border.
   I've been looking at Canadians and Americans who live near the border in Niagara, ON and Niagara, NY.
-  Here is a painting I did of the Horseshoe Falls from the Canadian side in Niagara Falls, ON.</p>
+  Here is a painting I did of the Horseshoe Falls from the Canadian side in Niagara Falls, ON.
+    </p>
+  </div>
 </div>
-  
+
+.content {
+  display: flex;
+  align-items: center; /* vertically align image + text */
+  gap: 20px; /* space between image and text */
+}
+
+.content img {
+  width: 200px; /* adjust as needed */
+  height: auto;
+}
+
+
 
 <h1>The border</h1>
  <img src=https://clairehenderson.github.io/images/IMG_7736.jpeg width="500" class="image-float-left">
