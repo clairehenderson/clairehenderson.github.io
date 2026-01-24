@@ -12,4 +12,4 @@ I'm a PhD student in the Linguistics Department at Georgetown University. My res
 
 I previously completed my MA at McGill University, where I looked at dialect diffusion between Canadian and American English along the Niagara border between Ontario and New York State.
 
-!(images/IMG_6590.JPG)
+![Niagara](images/IMG_6590.JPG)
