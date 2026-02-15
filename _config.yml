@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : ""
+  name             : "Claire Henderson"
   avatar           : "{{ '/images/IMG_6304.jpeg' | relative_url }}"
   bio              : "cah352@georgetown.edu"
   location         : "Washington, D.C."
