@@ -13,7 +13,7 @@ name                     : &name ""
 description              : &description ""
 url                      : "https://clairehenderson.com"
 baseurl                  : ""
-repository               : "clairehenderson/clairehenderson.github.io"
+#repository               : "clairehenderson/clairehenderson.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : 
-  avatar           : "/images/IMG_6304.jpeg"
+  avatar           : "IMG_6304.jpeg"
   bio              : "cah352@georgetown.edu"
   location         : "Washington, D.C."
   employer         :
