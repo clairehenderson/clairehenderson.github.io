@@ -26,28 +26,34 @@ My main research is about dialect contact between Canadian and American English 
 </div>
 
 <style>
+/* Desktop layout */
 .content {
   display: flex;
-  align-items: flex-start; /* vertically align image + text */
-  gap: 20px; /* space between image and text */
+  align-items: flex-start;
+  gap: 20px;
 }
 
 .content img {
-  width: 400px; /* adjust as needed */
+  width: 400px;
   height: auto;
 }
 
-   @media (max-width: 768px) {
-  .feature {
-    flex-direction: column;
-    text-align: center;
+/* Mobile layout */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column; /* stack image and text vertically */
+    text-align: center; /* optional: center text and image */
+    gap: 10px; /* reduce gap for smaller screens */
   }
 
-  .feature img {
-    max-width: 100%;
+  .content img {
+    width: 100%; /* make image responsive */
+    max-width: 100%; /* prevent overflow */
+    height: auto;
   }
 }
 </style>
+
 
 
 <div class="content">
