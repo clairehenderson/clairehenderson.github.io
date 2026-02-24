@@ -83,7 +83,7 @@ analytics:
 author:
   name             :
   avatar           : "IMG_6304.jpeg"
-  bio              : "cah352@georgetown<!--.example-->.edu"
+  bio              : "<script>document.write('c'+'a'+'h'+'3'+'5'+'2'+'@'+'g'+'e'+'o'+'r'+'g'+'e'+'t'+'o'+'w'+'n'+'.'+'e'+'d'+'u');</script>"
   location         : "Washington, D.C."
   employer         :
   pubmed           : 
