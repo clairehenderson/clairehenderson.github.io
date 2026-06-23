@@ -3,12 +3,12 @@ main:
     
   - title: "Research"
     url: /research/
-    
-  - title: "CV"
-    url: /cv/
 
   - title: "Publications"
     url: /publications/
+    
+  - title: "CV"
+    url: /cv/
     
   - title: "Cat Pictures"
     url: /catpictures/
